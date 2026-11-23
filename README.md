@@ -1,13 +1,14 @@
 # quartz-open-kitchen-starter
 
-Obsidian の Vault を「開放キッチン」的な個人サイトとして公開するための、Quartz 5 + Cloudflare Pages のスターター（サンプル実装）です。
+## Variation A: Minimal Garden（最小の庭）
 
-> An open-kitchen style personal site from an Obsidian vault, built with Quartz 5 and hosted on Cloudflare Pages. Clone it and make your own.
+Obsidian の Vault を「開放キッチン」的な個人サイトとして公開するための、Quartz 5 + Cloudflare Pages のスターターです。
 
-## これは何か
+このブランチは、比較用のテンプレート案です。ブログ本文や個人コンテンツは入れていません。置いてあるのは、構造を見るための最小限のプレースホルダーだけです。
 
-- 書きかけの文章や素材も「調理中」として見せる、開放キッチンのようなサイトの作り方を、誰でも再現できる形にまとめるプロジェクトです。
-- このリポジトリは公開サンプル専用です。本番のコンテンツは別の Private リポジトリで管理します。
+## この案の考え方
+
+フォルダを少なく保ち、Quartzの標準的な使い方に一番近い形。まず全体像をつかむための基準案。
 
 ## 構成
 
@@ -16,13 +17,4 @@ Obsidian の Vault を「開放キッチン」的な個人サイトとして公�
 - ホスティング: Cloudflare Pages
 - 公開範囲: frontmatter に `publish: true` と書いたノートだけを公開（ExplicitPublish）
 
-## 状態
-
-準備中。実装は 2026 年 12 月に開始します。
-セットアップ手順とサンプルコンテンツは、実装しながらこのリポジトリに足していきます。
-
-## これから入るもの
-
-- セットアップ手順（このリポジトリを複製して Cloudflare Pages に接続するまで）
-- Quartz の設定（日本語検索、フォント、公開範囲）
-- サンプルのノートとフォルダ構成
+詳しくは `TEMPLATE.md` を見てください。
